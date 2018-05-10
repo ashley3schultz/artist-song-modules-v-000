@@ -25,7 +25,6 @@ class Song
 
   def to_param
     this = name.downcase.gsub(' ', '-')
-    binding.pry
   end
 
   #def self.count
