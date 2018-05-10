@@ -17,5 +17,9 @@ module Memorable
     def to_param
       name.downcase.gsub(' ', '-')
     end
+    
+    def initialize
+      all << self
+    end 
   end
 end 
