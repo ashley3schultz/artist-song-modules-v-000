@@ -1,5 +1,5 @@
 module Paramable 
-  module InstanceMethod 
+  module InstanceMethods 
     def to_param
       name.downcase.gsub(' ', '-')
     end
